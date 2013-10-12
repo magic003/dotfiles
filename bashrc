@@ -16,3 +16,5 @@ alias sml='/usr/lib/smlnj/bin/sml'
 complete -cf sudo
 
 [[ -s "/home/minjie/.rvm/scripts/rvm" ]] && source "/home/minjie/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
